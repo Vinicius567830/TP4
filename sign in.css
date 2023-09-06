@@ -1,0 +1,93 @@
+
+
+.window-body {
+    color: rgb(0, 0, 0);
+    
+    }
+    
+    
+    body, html {
+        height: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+    
+    body {
+        background-color: #2d415d ;
+        background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+        background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+        
+    }
+    
+    .centered-div {
+width: 450px;
+height: 950px;
+padding: 20px;
+padding-top: 0px;
+padding-bottom: 0px;
+background: linear-gradient(30deg, #00adee, #143355);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-top: 36px;
+    }
+
+   
+    
+    
+    h2{
+        font-family: "IMPACT";
+        color: rgb(245, 245, 245);
+        font-size: 52px;
+        text-align: center;
+    }
+    
+
+    .labeld {
+        display: block;
+        margin-bottom: 5px;
+        font-family: "impact", sans-serif;
+        font-style: bold;
+        font-size: large;
+        color: white;
+        font-size: 30px;
+ 
+        width: 447.334px;
+        height: 30.633px
+    }
+
+    input[type="checkbox"] + label {
+        font-family: "Impact";
+        font-style: bold;
+        color: white;
+        font-size: 20px;
+}
+
+    .centered-div input[type="radio"] + label
+
+    {
+        font-family: "Impact";
+        font-style: bold;
+        color: white;
+        font-size: 25px;
+    }
+
+    button {
+        border-radius: 40px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #00adee;
+        height: 50px;
+        width: 110px;
+        text-decoration: none;
+        font-size: larger;
+       
+        margin-bottom: 10px;
+        color: white;
+    }

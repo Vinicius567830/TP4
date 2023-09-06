@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="imagex/png" href="copland_os_enterprise_icon_by_psybear_d1375et-fullview.png">
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="sign in.css">
+
+</head>
+<body>
+    
+   <div class="centered-div" style="height: 951px;margin-top: -30px;margin-bottom: -181px;">
+        <h2>Cadastro</h2>
+        <hr style="margin-top: -41px; width: 265px;">
+        <form action="casdastro.php" method="post">
+            <label class="labeld" for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required="" style="width: 447.334px;height: 30.633px;"><br><br>
+            
+                <label class="labeld" for="username"><p style="font-family: 'IMPACT', sans-serif;margin-top: 0px;">E-mail:</p></label>
+              
+               
+                     
+                    <input id="username" type="text" name="username" value="" required="" autofocus="" rows="6" cols="40" style="margin-top: -1px;padding-top: 2px;/*! height: 21.25px; */width: 447.334px;height: 30.633px;">
+               
+              
+            
+                <label class="labeld" for="password"><p>Senha:</p></label>
+                
+                    
+                <input class="labeld" id="password" type="password" name="password" required="" rows="6" cols="40" style="color: black;">
+                
+            <label class="labeld" for="data_nascimento">Data de nascimento:</label>
+            <input type="date" id="data_nascimento" name="data_nascimento" style="width: 146.5px;height: 43.633px;"><br><br>
+            
+            <label class="labeld">Gen�ro:</label>
+        <input type="radio" id="genero_masculino" name="genero" value="Masculino"> <label for="genero_masculino">Masculino</label>
+        <input type="radio" id="genero_feminino" name="genero" value="Feminino"> <label for="genero_feminino">Feminino</label>
+            
+            <br><br>
+            
+            <label class="labeld" for="interesses">Hobby:</label>
+            <input type="checkbox" id="interesse_esportes" name="interesses[]" value="Esportes"> <label for="interesse_esportes">Esportes</label>
+        <input type="checkbox" id="interesse_musica" name="interesses[]" value="Jogos"> <label for="interesse_musica">Poesia</label>
+        <input type="checkbox" id="interesse_leitura" name="interesses[]" value="Literatura"> <label for="interesse_leitura">HQs</label>
+            
+            <br><br>
+            
+            <label class="labeld" for="cidade">País:</label>
+            <select id="cidade" name="cidade">
+                <option value="Brazil">Brazil</option>
+                <option value="United States">United States</option>
+                <option value="Japan">Japan</option>
+                
+            </select><br><br>
+            
+            <label class="labeld" for="quantidade_amigos">
+                Quantos amigos você tem?</label>
+            <input type="number" id="equation" name="equation" min="0"><br><br>
+            
+        </form>
+        <div class="button-container">
+            <button type="submit">Cadastrar</button>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+</body>
+</html>
